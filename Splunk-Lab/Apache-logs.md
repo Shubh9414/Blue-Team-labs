@@ -8,10 +8,10 @@ Tools Used: Splunk Enterprise (local installation), Apache access logs (`apache_
 
 Steps Performed
 
-1. Log Upload
+1. Log Upload:
 - Uploaded `apache_logs.log` into Splunk via GUI
 
-2. SPL Queries Executed
+2. SPL Queries Executed:
 
 🔹 Top 10 IP Addresses
 
@@ -30,3 +30,24 @@ index=test_logs
 🔹 HTTP Status Code Distribution
 
 index=test_logs | stats count by status | sort -count
+
+3. Dashboard Creation: Created a dashboard named Apache Log Insights with:
+
+Top 10 IPs, Top requested URLs, HTTP status code distribution chart
+
+4. Screenshots: 
+![Log-Upload](https://github.com/user-attachments/assets/9f5b9446-7df2-4d21-b4ae-f4f269bb608c)
+![Top-IP](https://github.com/user-attachments/assets/719cbf47-5521-4684-aa4d-07d117ab7e2a)
+![Top-URl](https://github.com/user-attachments/assets/490a0389-7f1d-46b3-a2d6-95d87ead7e90)
+![Status-codes](https://github.com/user-attachments/assets/da6c9b2f-d17b-4e44-8810-1c3c934aa7b5)
+![Full-Dashboard](https://github.com/user-attachments/assets/e64fdae3-6ec2-4893-bc82-6575b9b1c063)
+
+
+5. Key Learnings:
+Ingesting custom log files in Splunk
+
+Writing and interpreting basic SPL queries
+
+Creating dashboards for log visualization
+
+Understanding web traffic through log forensics

@@ -1,0 +1,5 @@
+![Top_Queried_Domains](https://github.com/user-attachments/assets/9e51c123-d4e7-42c6-8e7e-6f4866bdf809)
+![TopIP_Requests](https://github.com/user-attachments/assets/c9056b61-ce64-4dda-94f9-d72b0035e174)
+![NXDOMAIN_REFUSED](https://github.com/user-attachments/assets/323b204c-606f-4416-934d-71158ff64a03)
+![Reverse_DNS_Lookups](https://github.com/user-attachments/assets/39482aa7-5263-4da0-8b97-c11d35a738cc)
+![External_IPs](https://github.com/user-attachments/assets/43a03bbc-5e5b-4197-9b9c-0fa4ca576675)

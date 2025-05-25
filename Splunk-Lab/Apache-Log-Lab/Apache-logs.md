@@ -1,45 +1,37 @@
+# Apache Log Analysis
 This repository contains hands-on Splunk log analysis projects focusing on log ingestion, visualization, and threat detection — especially relevant for Blue Team cybersecurity learning.
 
-Project 1: Apache Logs
+## Project 1: 
+Apache Logs
 
-Objective: Analyzed Apache HTTP server logs using Splunk, extract meaningful insights like top IP addresses, most requested resources, and HTTP status distribution, and visualize the data using a custom dashboard.
+## Objective: 
+Analyzed Apache HTTP server logs using Splunk, extract meaningful insights like top IP addresses, most requested resources, and HTTP status distribution, and visualize the data using a custom dashboard.
 
-Tools Used: Splunk Enterprise (local installation), Apache access logs (`apache_logs.log`)
+## Tools Used: 
+Splunk Enterprise (local installation), Apache access logs (`apache_logs.log`)
 
-Steps Performed
+## Steps Performed
 
-1. Log Upload:
+### 1. Log Upload:
 - Uploaded `apache_logs.log` into Splunk via GUI
 
-2. SPL Queries Executed:
+### 2. SPL Queries Executed:
 
-🔹 Top 10 IP Addresses
+- Top 10 IP Addresses: index=test_logs | stats count by clientip | sort -count | head 10
 
-index=test_logs 
-| stats count by clientip 
-| sort -count 
-| head 10
+- Most Requested URLs: index=test_logs | stats count by uri_path | sort -count | head 10
 
-🔹 Most Requested URLs
+- HTTP Status Code Distribution: index=test_logs | stats count by status | sort -count
 
-index=test_logs 
-| stats count by uri_path 
-| sort -count 
-| head 10
+### 3. Dashboard Creation:
 
-🔹 HTTP Status Code Distribution
+- Created a dashboard named Apache Log Insights with Top 10 IPs, Top requested URLs, HTTP status code distribution chart
 
-index=test_logs | stats count by status | sort -count
+### 4. Key Learnings:
+- Ingesting custom log files in Splunk
 
-3. Dashboard Creation: Created a dashboard named Apache Log Insights with:
+- Writing and interpreting basic SPL queries
 
-Top 10 IPs, Top requested URLs, HTTP status code distribution chart
+- Creating dashboards for log visualization
 
-4. Key Learnings:
-Ingesting custom log files in Splunk
-
-Writing and interpreting basic SPL queries
-
-Creating dashboards for log visualization
-
-Understanding web traffic through log forensics
+- Understanding web traffic through log forensics

@@ -1,4 +1,4 @@
-# DNS Log Analysis - Splunk Lab
+# DNS Log Analysis 
 
 ## Objective
 To analyze DNS logs in Splunk and identify potential suspicious/malicious behavior using SPL (Search Processing Language).

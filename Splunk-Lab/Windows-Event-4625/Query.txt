@@ -1,0 +1,1 @@
+index="main" sourcetype="WinEventLog:Security" EventCode=4625 | rex field=_raw "log entry for (?<username>.*?) from (?<src_ip>\d+\.\d+\.\d+\.\d+)" | stats count by src_ip, username | where count > 3 | sort - count

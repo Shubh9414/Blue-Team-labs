@@ -46,7 +46,7 @@ blue-team-labs/
 
 ## Status
 
-This repository is actively maintained from **May to July 2025** as part of my personal blue team learning and internship preparation.  
+This repository is actively maintained as part of my personal blue team learning.  
 I’ll continue to update it as I complete more practical labs and investigations.
 
 ## Connect

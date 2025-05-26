@@ -6,17 +6,18 @@ Each folder in this repository represents a lab or real-world inspired investiga
 
 ## Repository Structure
 
+```bash
+
 blue-team-labs/
 ├── README.md                ← Overview and documentation
 ├── splunk-labs/             ← Log analysis projects using Splunk
 │   ├── apache-logs/         ← Web access log analysis
 │   ├── ssh-bruteforce/      ← Brute force detection
 │   └── dns-logs/            ← DNS tunneling / malware C2 detection
-├── wireshark-labs/          ← Network traffic analysis with Wireshark
-├── nmap-labs/               ← Active scanning and scan detection
-├── tcpdump-labs/            ← Command-line network analysis
-└── scripts/                 ← Python/Bash tools for log parsing (planned)
-
+├── wireshark-labs/          ← Network traffic analysis with Wireshark (In working...)
+├── nmap-labs/               ← Active scanning and scan detection (Planned)
+└── scripts/                 ← Python/Bash tools for log parsing (Planned)
+```
 ## Completed Labs
 
 | Tool        | Lab Name            | Description                                     |

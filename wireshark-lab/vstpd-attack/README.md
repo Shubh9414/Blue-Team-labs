@@ -29,9 +29,9 @@ Analyze the traffic generated during the exploitation of the backdoored `vsftpd`
 
 | Step | Description                     | Screenshot                                    |
 |------|---------------------------------|-----------------------------------------------|
-| 1    | FTP login with backdoor trigger | ![FTP Login](screenshots/ftp-login.png)       |
-| 2    | Reverse shell on port 6200      | ![Shell Port](screenshots/tcp-6200-shell.png) |
-| 3    | Attacker interaction via stream | ![TCP Stream](screenshots/stream-output.png)  |
+| 1    | FTP login with backdoor trigger |                    (screenshots/)             |
+| 2    | Reverse shell on port 6200      |                    (screenshots/)             |
+| 3    | Attacker interaction via stream |                    (screenshots/)             |
 
 ## Key Wireshark Filters Used
 

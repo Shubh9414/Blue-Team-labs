@@ -35,8 +35,7 @@ Analyze the traffic generated during the exploitation of the backdoored `vsftpd`
 
 ## Key Wireshark Filters Used
 
-```wireshark
 ftp
 tcp.port == 6200
 ip.addr == <192.168.56.101>
-tcp.stream eq <stream_number>
+tcp.stream eq <6>

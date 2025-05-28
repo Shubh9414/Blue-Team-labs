@@ -29,7 +29,7 @@ Analyze the traffic generated during the exploitation of the backdoored `vsftpd`
 
 | Step | Description                     | Screenshot                                    |
 |------|---------------------------------|-----------------------------------------------|
-| 1    | FTP login with backdoor trigger |                    (screenshots/)             |
+| 1    | Port Scan                       | ![nmap-vsftpd-scan](https://github.com/user-attachments/assets/d32ac994-0a16-4729-97a0-c5c0bfab4d28)          |
 | 2    | Reverse shell on port 6200      |                    (screenshots/)             |
 | 3    | Attacker interaction via stream |                    (screenshots/)             |
 

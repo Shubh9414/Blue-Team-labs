@@ -29,8 +29,8 @@ Analyze the traffic generated during the exploitation of the backdoored `vsftpd`
 
 | Step | Description                     | Screenshot                                    |
 |------|---------------------------------|-----------------------------------------------|
-| 1    | Port Scan                       | ![nmap-vsftpd-scan](https://github.com/user-attachments/assets/d32ac994-0a16-4729-97a0-c5c0bfab4d28)          |
-| 2    | Reverse shell on port 6200      |                    (screenshots/)             |
+| 1    | Port Scan                          | ![nmap-vsftpd-scan](https://github.com/user-attachments/assets/d32ac994-0a16-4729-97a0-c5c0bfab4d28)          |
+| 2    | Exploiting vsftpd using metasploit | ![msf-vsftpd-exploit-shell](https://github.com/user-attachments/assets/fa82b0c8-8e59-4cfb-8a49-5dd4ddbf6f43)            |
 | 3    | Attacker interaction via stream |                    (screenshots/)             |
 
 ## Key Wireshark Filters Used

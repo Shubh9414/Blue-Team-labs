@@ -9,14 +9,19 @@ Each folder in this repository represents a lab or real-world inspired investiga
 ```bash
 
 blue-team-labs/
-├── README.md                ← Overview and documentation
-├── splunk-labs/             ← Log analysis projects using Splunk
-│   ├── apache-logs/         ← Web access log analysis
-│   ├── ssh-bruteforce/      ← Brute force detection
-│   └── dns-logs/            ← DNS tunneling / malware C2 detection
-├── wireshark-labs/          ← Network traffic analysis with Wireshark (In working...)
-├── nmap-labs/               ← Active scanning and scan detection (Planned)
-└── scripts/                 ← Python/Bash tools for log parsing (Planned)
+├── Nmap-Basics               : Nmap basic command execution.
+├── Splunk-Lab                
+│ ├── Apache-Log-Lab          : Detected suspicious user-agent strings and common attack patterns.
+│ ├── DNS-log-Analysis        : Monitored DNS queries for tunneling and data exfiltration patterns.
+│ ├── SSH-BruteForce          : Detected brute-force attempts using Splunk SPL and IP extraction via `rex`.
+│ ├── Windows-Event-4625      : Parsed Windows failed login events (Event ID 4625).
+│ └── README.md
+├── wireshark-lab
+│ ├── HTTP-Analysis           : Analyzed HTTP traffic in PCAP files.
+│ ├── tcp-dump-ftp-analysis   : Captured and filtered FTP traffic using Tcpdump.
+│ ├── vsftpd-attack-lab       : Investigated a known backdoor in vsftpd 2.3.4 using PCAP.
+│ └── README.md
+└── README.md 
 ```
 ## Completed Labs
 

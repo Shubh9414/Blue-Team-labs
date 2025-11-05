@@ -32,22 +32,12 @@ blue-team-labs/
 | Splunk      | DNS Logs            | Analyzes suspicious domain queries              |
 | Splunk      | Windows Event Logs  | Analyze windows logs for failed logins          |
 
-(More tools and labs will be added )
-
 ## Tools Used
 
 - **Splunk**: For centralized log analysis and dashboards.
 - **Wireshark**: To inspect packet captures and spot anomalies.
 - **Nmap**: For scanning, reconnaissance, and enumeration.
 - **TCPDump**: For lightweight command-line packet analysis.
-- *(More to come...)*
-
-## Goal
-
-- Build practical blue team skills
-- Showcase projects on GitHub
-- Secure a hands-on **cybersecurity internship**
-- Eventually target **30 LPA security roles** before the 8th semester
 
 ## Status
 
